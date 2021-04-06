@@ -1,0 +1,14 @@
+% https://www.instructables.com/Alexabot-Amazon-Alexa-Controlled-Robot-With-the-Ra/
+
+cd /opt 
+sudo git clone https://github.com/alexa-pi/AlexaPi.git   
+sudo ./AlexaPi/src/scripts/setup.sh
+
+% follow prompts
+
+% Reboot your machine or start AlexaPi with
+
+sudo systemctl start AlexaPi.service
+Check the status of AlexaPi with
+
+% sudo systemctl status AlexaPi.service
